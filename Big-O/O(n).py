@@ -1,3 +1,6 @@
+# O(n) - Linear Time
+
+# Eg: 1
 import time
 
 nemo = ['nemo']
@@ -19,4 +22,17 @@ def find_nemo(array):
 # find_nemo(everyone)
 find_nemo(large)
 
-# O(n) - Linear Time
+# Eg: 2
+def randomChallenge(input):
+    temp = 10  # O(1)
+    temp = 50 + 3  # O(1)
+
+    for i in range(len(input)):
+        stranger = True  # O(n)
+        temp += 1  # O(n)
+
+        return temp  # O(1)
+
+# Big O (3+2n)
+# Constants doesn't matter
+# Big O(n)
