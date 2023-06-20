@@ -28,5 +28,14 @@ Rule 4: Drop Non-dominant terms
 ### ***Note***
 *Iterating through half a collection is still O(n)*
 
+## **Space Complexity**
+Def:
+
+### **What causes space complexity**
+- Variables
+- Data Structures
+- Function Call
+- Allocations
+
 ### **Additional Resources**
 [Big-O Cheatsheet](https://www.bigocheatsheet.com/)
