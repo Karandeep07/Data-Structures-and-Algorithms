@@ -4,8 +4,12 @@
 # Static arrays have fixed, pre-defined amount of memory that they can use, whereas in dynamic arrays this is flexible
 # In Python we only have dynamic arrays
 
+# BASIC OPERATIONS
+
 arr = ['a', 'b', 'c', 'd']
-print(arr[2])
+print(arr[2]) 
+
+first_element = arr[0]  # Indexing O(1)
 
 # push
 arr.append('e')  # O(1)
@@ -38,3 +42,10 @@ print(arr)
 arr1 = ['a', 'b', 'c', 'd']
 del arr1[1:3]  # Deletes elements from position 1 to position 2. O(n)
 print(arr1)
+
+
+# Implementation
+    # Although arrays are pre-defined in Python in the form of lists, we can implement our own arrays.
+
+# Here, we will implement our own array with some common methods such as access, push, pop, insert, delete
+
