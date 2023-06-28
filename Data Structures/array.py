@@ -7,11 +7,11 @@
 # BASIC OPERATIONS
 
 arr = ['a', 'b', 'c', 'd']
-print(arr[2]) 
+print(arr[2])
 
 first_element = arr[0]  # Indexing O(1)
 
-# push
+# Push
 arr.append('e')  # O(1)
 print(arr)
 
@@ -21,13 +21,12 @@ print(arr)
 # Therefore, some individual operations may require O(n) time or greater, but when averaged over a large number of operations,
 # The complexity can be safely considered to be O(1)
 
-# pop
+# Pop
 arr.pop()  # O(1)
 print(arr)  # Removes last element
 
-# insert
-# insert anywhere in array
-# Syntax
+# Insert: insert anywhere in array
+# Syntax : insert(index, value)
 arr.insert(0, 'x')  # O(n)
 print(arr)
 
@@ -44,8 +43,16 @@ del arr1[1:3]  # Deletes elements from position 1 to position 2. O(n)
 print(arr1)
 
 
-# Implementation
-    # Although arrays are pre-defined in Python in the form of lists, we can implement our own arrays.
+# Array native python methods :
 
-# Here, we will implement our own array with some common methods such as access, push, pop, insert, delete
-
+# append()	Adds an element at the end of the list
+# clear()	Removes all the elements from the list
+# copy() 	Returns a copy of the list
+# count()	Returns the number of elements with the specified value
+# extend()	Add the elements of a list (or any iterable), to the end of the current list
+# index()	Returns the index of the first element with the specified value
+# insert()	Adds an element at the specified position
+# pop()	    Removes the element at the specified position
+# remove()	Removes the first item with the specified value
+# reverse()	Reverses the order of the list
+# sort()	Sorts the list
