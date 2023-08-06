@@ -1,11 +1,10 @@
 # Data-Structures-and-Algorithms
-Data Structures and Algorithms in Python 
-
-Data Structure: Ways to store data
-
-Algorithm: Ways to use Data Structure (Instructions)
-
 Data Structure + Algorithm = Programs
+- Data Structure: Ways to store data
+
+- Algorithm: Ways to use Data Structure (Instructions)
+
+
 
 ## What is a good code?
 
