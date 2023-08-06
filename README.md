@@ -2,6 +2,7 @@
 Data Structures and Algorithms in Python 
 
 Data Structure: Ways to store data
+
 Algorithm: Ways to use Data Structure (Instructions)
 
 Data Structure + Algorithm = Programs
